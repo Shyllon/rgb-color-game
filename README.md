@@ -53,4 +53,4 @@ rgb-color-game/
 ## 🙌 Author
 
 **Afolabi Shyllon**  
-[GitHub](https://github.com/Shyllon) | [LinkedIn](https://linkedin.com/in/your-profile)  
+[GitHub](https://github.com/Shyllon) | [LinkedIn](https://www.linkedin.com/in/afolabi-shyllon-bb6402246)  
