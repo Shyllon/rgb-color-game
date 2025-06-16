@@ -28,8 +28,7 @@ rgb-color-game/
 
 ## 🚀 Live Demo
 
-[Click here to play the game](https://github.com/Shyllon/rgb-color-game.git)  
-[Click here to play the game](https://shyllon.github.io/rgb-color-game/)
+[🎮 Click here to play the game](https://shyllon.github.io/rgb-color-game/)
 
 
 ## 🛠️ Built With
