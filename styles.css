@@ -1,0 +1,83 @@
+body {
+  background-color: #232323;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+header {
+  background-color: steelblue;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: steelblue;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4682b4;
+}
+
+button.selected {
+  background-color: darkblue;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.fade {
+  opacity: 0;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+/* Animation for correct guess */
+.square.correct {
+  animation: bounce 0.4s ease;
+}
+
+@keyframes bounce {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
